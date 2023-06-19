@@ -1,11 +1,11 @@
-About r-extremevalues
-=====================
+About r-extremevalues-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extremevalues-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.github.com/markvanderloo/extremevalues
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extremevalues-feedstock/blob/main/LICENSE.txt)
 
 Summary: Detect outliers in one-dimensional data.
 
