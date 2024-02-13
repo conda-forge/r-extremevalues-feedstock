@@ -1,4 +1,4 @@
-{% set version = '2.3.3' %}
+{% set version = "2.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/extremevalues_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/extremevalues/extremevalues_{{ version }}.tar.gz
-  sha256: a64bf0874d0dd14f1dc82e4d3ba02c148f3791981d93fa19c878ecfa7f515046
+  sha256: a6d6ed53a480fcb0c7ff498fdd39b45ae59ad9d67c359e90285040b40691444d
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
